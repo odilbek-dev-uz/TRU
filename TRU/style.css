@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 136px;
+    border-bottom: 1px solid #990000;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    justify-content: space-between;
+
+}
+
+header a img{
+    width: 154px;
+    height: 81px;
+    margin-left: 28px;
+}
+
+ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+
+}
+
+.sec1{
+    width: 100%;
+    height: 658px;
+    background-image: url("./img/Blueprint.jpg");
+    background-size: contain;        
+    background-position: right;   
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    padding-left:150px ;
+}
+
+article section h1 {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 20px;
+    
+}
+
+article section p{
+    width: 604px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+button{
+    border: none;
+    background-color: #990000;
+    width: 181px;
+    height: 59px;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+button:hover{
+    background-color: #990000;
+}
+main{
+    width: 100%;
+}
+
+.sec2{
+    background-color: #990000;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2_text h2{
+    color: white;
+    width: 291px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    margin-bottom: 5px;
+}
+
+.text_2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2_text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.sec2_text p{
+    color: white;
+    width: 510px;
+    height: 89px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.text_2 button{
+    background-color: white;
+    color: #990000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sec2{
+    width: 100%;
+    height: 582px;
+    background-image: url("./img/Blueprint.png");
+    background-size: 1340px;        
+    background-position: 10px 15px;   
+    background-repeat: no-repeat;  
+}
+
+.text{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 850px;
+}
+
+footer section h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+h2 span{
+    border-bottom: 5px solid #990000;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    background-image: url("./img/Group.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 730px;
+}
+
+.sec3_item{
+    width: 340px;
+}
